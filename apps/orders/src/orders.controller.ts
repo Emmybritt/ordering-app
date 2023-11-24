@@ -12,7 +12,7 @@ export class OrdersController {
   }
 
   @Get()
-  getHello(): string {
-    return this.ordersService.getHello();
+  getOrders() {
+    return this.ordersService.getOrders();
   }
 }
